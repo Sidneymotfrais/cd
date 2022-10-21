@@ -22,8 +22,11 @@ body {
 }
 
 .navbar {
-    display: flex;
     margin-right: 10px;
+}
+
+a {
+    color: white;
 }
 
 .Universe {
@@ -35,10 +38,6 @@ body {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 20px;
-}
-
-.navbar a:hover {
-    background: #40ff00;
 }
 
 .header {
@@ -102,21 +101,21 @@ table, th, td{
 }
 
 table{
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-collapse:collapse; /*borde simple*/
 }
 
 
 th{
-    height: 100px;
-    background-color: rgb(102, 56, 106);
+    height: 90px;
+    background-color: rgb(123 102 124);
 }
 
 td{
     height: 10px;
     vertical-align:top; /*bottom (inf), top (sup)*/
-    padding: 15px;
+    padding: 13px;
 }
 
 /* th, td{ /*borde inferior
@@ -130,5 +129,5 @@ tr:hover{
 
 /* color de cebra */
 tr:nth-child(even){
-    background-color: #f2f2f2;
+    background-color: #a89494;
 }
