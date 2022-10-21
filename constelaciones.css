@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.hiader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 150;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.Universe {
+    margin-left: 30px;
+}
+
+.Universe a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #40ff00;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg);
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 120px;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h3{
+    background-color: none;
+    text-align: left;
+    color: lavender;
+    
+}
+
+main{
+    display:flex;
+    
+}
+
+
+table, th, td{
+    border-style:dashed;
+    border-width:2px;
+    border-color:rgb(89, 80, 80) ; 
+    border: 1px solid rgb(186, 107, 235);
+}
+
+table{
+    width: 50%;
+    text-align: center;
+    border-collapse:collapse; /*borde simple*/
+}
+
+
+th{
+    height: 50px;
+    background-color: rgb(102, 56, 106);
+}
+
+td{
+    height: 10px;
+    vertical-align:top; /*bottom (inf), top (sup)*/
+    padding: 15px;
+}
+
+/* th, td{ /*borde inferior
+    border-bottom: 1px solid blue;
+} */
+
+/* Cambie de color
+tr:hover{
+    background-color: aqua;
+} */
+
+/* color de cebra */
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
