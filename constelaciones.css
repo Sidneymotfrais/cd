@@ -116,6 +116,7 @@ td{
     height: 10px;
     vertical-align:top; /*bottom (inf), top (sup)*/
     padding: 13px;
+    background-color: azure;
 }
 
 /* th, td{ /*borde inferior
