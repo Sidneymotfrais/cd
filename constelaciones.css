@@ -97,7 +97,7 @@ main{
 table, th, td{
     border-style:dashed;
     border-width:2px;
-    border-color:rgb(89, 80, 80) ; 
+    border-color:rgb(126 107 128) ; 
     border: 1px solid rgb(186, 107, 235);
 }
 
@@ -109,7 +109,7 @@ table{
 
 
 th{
-    height: 50px;
+    height: 100px;
     background-color: rgb(102, 56, 106);
 }
 
